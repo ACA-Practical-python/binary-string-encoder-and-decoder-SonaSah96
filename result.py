@@ -15,4 +15,5 @@ def rep_dec_enc():
         print(f"The answer is: {de_code2(bin_type)}")  # or de_code
 
 
-rep_dec_enc()
+if __name__ == '__main__':
+    rep_dec_enc()
